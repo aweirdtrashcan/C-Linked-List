@@ -13,7 +13,7 @@ node_t *create_new_node()
 void print_list(node_t *head)
 {
 	node_t *temp = head;
-	int count = 0;
+	int count = -1;
 
 	while (temp != NULL)
 	{
